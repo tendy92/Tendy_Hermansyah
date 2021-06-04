@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tendy_Hermansyah</string>
+
+    <string name="name">Tendy Hermansyah</string>
+    <string name="nim">10118083</string>
+    <string name="ttl">04 Maret 2000</string>
+    <string name="find">CARI AKU!!!</string>
+    <string name="mhs">Mahasiswa Unikom | Teknik Informatika</string>
+    <string name="desk">Nama saya adalah Tendy Hermansyah lahir di Sumedang, 04 Maret 2000.
+    Saat ini saya sedang kuliah di kampus UNIKOM dan saya membawa jurusan Teknik Informatika.</string>
+    <string name="hobby">Membaca Komik, Mendengarkan Musik</string>
+    <string name="makes">Nasi Goreng, Masakan Padang, Bebek Samble Ijo</string>
+    <string name="mikes">Kopi Susu</string>
+    <string name="interest">Touring keliling Indonesia</string>
+    <string name="cita">Punya Usaha Cafe</string>
+    <string name="about">About Tendy</string>
+
+    <string name="home">Home Menu</string>
+    <string name="daily">Daily Activity</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music Video</string>
+    <string name="profile">Profile</string>
+
+    <string name="about1">My Version Application</string>
+    <string name="about2">Android Version : 1.0 Rilis pertama</string>
+    <string name="about3">Android Version : 1.1 Memperbaiki Layout</string>
+    <string name="about4">Android Version : 1.2 Menambah fitur</string>
+    <string name="about5">Android Version : 2.0 Rilis Utama</string>
+
+    <string name="slide1_kata1">Selamat Datang</string>
+    <string name="title_aktifitas_teman"><![CDATA[Aktifitas & Teman]]></string>
+</resources>

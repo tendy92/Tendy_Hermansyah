@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clouds"
+    tools:context=".MusicVideo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="List Music"
+                android:textSize="22sp"
+                android:textColor="@color/wet"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_bangun"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/dontstopmenow" />-->
+
+                <TextView
+                    android:id="@+id/dontstopmenow"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Queen ~ Don't Stop Me Now"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_mandi"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/iminlovewithmycar" />-->
+
+                <TextView
+                    android:id="@+id/iminlovewuthmycar"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Queen ~ Im In Love With My Car"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_eat"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/jikalau" />-->
+
+                <TextView
+                    android:id="@+id/jikalau"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Naif ~ Jikalau"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_work"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/loveofmylife" />-->
+
+                <TextView
+                    android:id="@+id/loveofmylife"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Queen ~ Love Of My Life"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_mandi2"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/somebodytolove" />-->
+
+                <TextView
+                    android:id="@+id/somebodytolove"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Queen ~ Some Body To Love"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_sleep"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/toxic" />-->
+
+                <TextView
+                    android:id="@+id/toxic"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Eevnxx ~ Toxic"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/airapi"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/jikalau" />-->
+
+                <TextView
+                    android:id="@+id/text_airapi"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Naif ~ Air dan Api"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/mobilbalap"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/jikalau" />-->
+
+                <TextView
+                    android:id="@+id/mobilbalap"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Naif ~ Mobil Balap"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/piknik72"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/jikalau" />-->
+
+                <TextView
+                    android:id="@+id/piknik72"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Naif ~ Piknik 72"
+                    android:textColor="@color/wet"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="List Video"
+                android:textSize="22sp"
+                android:textColor="@color/wet"/>
+
+            <TextView
+                android:id="@+id/callyoumine"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Harry Tambunan ft Qorygore (Jeff Bernat Cover) ~ Call You Mine"
+                android:textColor="@color/wet"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bali"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Rich Brian ~ BALI ft. Guapdad 4000 (Official Video)"
+                android:textColor="@color/wet"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/dancemonkey"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:text="ZHANG ZE | Dance Monkey Beatbox Cover"
+                android:textColor="@color/wet"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/loveyourself"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:text="ZHANG ZE | Love Yourself Beatbox Cover"
+                android:textColor="@color/wet"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rapgod"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:text="ZHANG ZE | Rap God Beatbox Cover"
+                android:textColor="@color/wet"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/godzilla"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:text="ZHANG ZE | Godzilla Beatbox Cover"
+                android:textColor="@color/wet"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
