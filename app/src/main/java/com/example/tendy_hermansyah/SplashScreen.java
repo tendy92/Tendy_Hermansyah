@@ -8,7 +8,13 @@ import android.view.Window;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
-
+    /*
+        NIM                 : 10118083
+        Nama                : Tendy Hermansyah
+        Kelas               : IF2
+        Matakuliah          : Aplikasi Komputasi Bergerak
+        Tanggal pengerjaan  : 04 Juni 2021
+        */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

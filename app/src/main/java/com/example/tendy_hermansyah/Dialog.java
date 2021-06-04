@@ -9,6 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class Dialog extends androidx.fragment.app.DialogFragment {
+    /*
+    NIM                 : 10118083
+    Nama                : Tendy Hermansyah
+    Kelas               : IF2
+    Matakuliah          : Aplikasi Komputasi Bergerak
+    Tanggal pengerjaan  : 04 Juni 2021
+    */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--    NIM                 : 10118083-->
+<!--    Nama                : Tendy Hermansyah-->
+<!--    Kelas               : IF2-->
+<!--    Matakuliah          : Aplikasi Komputasi Bergerak-->
+<!--    Tanggal pengerjaan  : 04 Juni 2021-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home_menu"

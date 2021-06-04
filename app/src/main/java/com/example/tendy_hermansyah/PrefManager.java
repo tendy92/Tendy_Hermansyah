@@ -4,6 +4,13 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class PrefManager {
+    /*
+        NIM                 : 10118083
+        Nama                : Tendy Hermansyah
+        Kelas               : IF2
+        Matakuliah          : Aplikasi Komputasi Bergerak
+        Tanggal pengerjaan  : 04 Juni 2021
+        */
     SharedPreferences pref;
     SharedPreferences.Editor editor;
     Context _context;

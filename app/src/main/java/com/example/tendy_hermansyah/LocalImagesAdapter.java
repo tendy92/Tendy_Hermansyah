@@ -13,6 +13,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LocalImagesAdapter extends RecyclerView.Adapter<LocalImagesAdapter.Holder>{
+    /*
+        NIM                 : 10118083
+        Nama                : Tendy Hermansyah
+        Kelas               : IF2
+        Matakuliah          : Aplikasi Komputasi Bergerak
+        Tanggal pengerjaan  : 04 Juni 2021
+        */
     private List<LocalImages> images;
     private Context context;
 

@@ -10,6 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class Adapter2 extends RecyclerView.Adapter{
+    /*
+    NIM                 : 10118083
+    Nama                : Tendy Hermansyah
+    Kelas               : IF2
+    Matakuliah          : Aplikasi Komputasi Bergerak
+    Tanggal pengerjaan  : 04 Juni 2021
+    */
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

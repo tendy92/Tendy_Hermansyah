@@ -10,6 +10,13 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Menu extends AppCompatActivity
+    /*
+        NIM                 : 10118083
+        Nama                : Tendy Hermansyah
+        Kelas               : IF2
+        Matakuliah          : Aplikasi Komputasi Bergerak
+        Tanggal pengerjaan  : 04 Juni 2021
+        */
         implements BottomNavigationView.OnNavigationItemSelectedListener{
 
     @Override

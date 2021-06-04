@@ -1,6 +1,13 @@
 package com.example.tendy_hermansyah;
 
 public class Ourdata {
+    /*
+        NIM                 : 10118083
+        Nama                : Tendy Hermansyah
+        Kelas               : IF2
+        Matakuliah          : Aplikasi Komputasi Bergerak
+        Tanggal pengerjaan  : 04 Juni 2021
+        */
     public static String[] friendlist_daily = new String[]{
             "Agung",
             "Nadia",
